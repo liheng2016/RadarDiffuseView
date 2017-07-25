@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.waiwen.radardiffuseveiw.MainActivity">
+
+   <com.waiwen.radardiffuseveiw.RadarDiffuseView
+       android:id="@+id/radar_view"
+       android:layout_width="match_parent"
+       app:innerCircle_Radius="40dp"
+       app:diffusePaint_Color="#FF4081"
+       app:innerPaint_Color="#303F9F"
+       android:layout_height="match_parent" />
+   <!--<com.waiwen.radardiffuseveiw.RadarDiffSurfaceView-->
+       <!--android:id="@+id/radar_surfaceview"-->
+       <!--android:layout_width="match_parent"-->
+    <!--app:diffusePaint_Color="#FF4081"-->
+    <!--app:innerPaint_Color="#303F9F"-->
+       <!--android:layout_height="match_parent" />-->
+
+</LinearLayout>
